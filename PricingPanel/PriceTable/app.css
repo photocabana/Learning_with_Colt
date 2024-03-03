@@ -70,16 +70,19 @@ body {
   padding: 15px 25px;
   width: 100%;
   max-width: 960px;
+  /*mobile demensions*/
   display: flex;
   flex-direction: column;
   text-align: center;
   text-transform: uppercase;
 }
 
+/* Borders between pricing plans */
 .pricing-plan {
   border-bottom: 1px solid #e1f1ff;
 }
 
+/* remove border from last pricing plan */
 .pricing-plan:last-child {
   border-bottom: none;
 }
