@@ -141,6 +141,7 @@ body {
   padding: 15px 35px;
   text-decoration: none;
   margin: 25px 0;
+  /*transition*/
   transition: background-color 200ms ease-in-out;
 }
 .pricing-button:hover, .pricing-button:focus {
