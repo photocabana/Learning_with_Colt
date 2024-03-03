@@ -157,7 +157,7 @@ body {
 }
 
 
-/* Media Queries */
+/* Media Queries - for larger screens */
 
 @media (min-width: 900px){
   .panel {
