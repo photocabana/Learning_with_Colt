@@ -78,19 +78,25 @@ body {
 }
 
 /* Borders between pricing plans */
+
 .pricing-plan {
   border-bottom: 1px solid #e1f1ff;
 }
 
 /* remove border from last pricing plan */
+
 .pricing-plan:last-child {
   border-bottom: none;
 }
+
+/* Image */
 
 .pricing-img {
   margin-bottom: 25px;
   max-width: 100%;
 }
+
+/* Pricing Plan Title Type Styling */
 
 .pricing-header {
   color: #888;
@@ -98,11 +104,12 @@ body {
   letter-spacing: 1px;
 }
 
+/* Pricing Plan Title Description Styling */
+
 .pricing-features {
   margin: 50px 0 25px;
   color: #016ff9;
 }
-
 .pricing-features-item {
   font-weight: 600;
   letter-spacing: 1px;
@@ -111,10 +118,11 @@ body {
   padding: 15px 0;
   border-top: 1px solid #e1f1ff;
 }
-
 .pricing-features-item:last-child{
   border-bottom: 1px solid #e1f1ff;
 }
+
+/* Pricing Plan Price Styling */
 
 .pricing-price {
   color: #016ff9; 
@@ -122,6 +130,8 @@ body {
   font-size: 32px;
   font-weight: 700;
 }
+
+/* Pricing Plan Button Styling */
 
 .pricing-button {
   border: 1px solid #9dd1ff;
@@ -133,20 +143,18 @@ body {
   margin: 25px 0;
   transition: background-color 200ms ease-in-out;
 }
-
 .pricing-button:hover, .pricing-button:focus {
   background-color: #e1f1ff;
 }
-
 .pricing-button.is-featured {
   background-color: #48aaff;
   color: white;
 }
-
 .pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
   background-color: #269aff;
   color: white;
 }
+
 
 /* Media Queries */
 
