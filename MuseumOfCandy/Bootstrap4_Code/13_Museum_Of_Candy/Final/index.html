@@ -2,44 +2,40 @@
 <html lang="en">
 <head>
     <!-- Required meta tags -->
-    // This meta tag will set the character set to UTF-8 
+    <!--This meta tag will set the character set to UTF-8-->
     <meta charset="utf-8">
-    // This meta tag will make the page responsive to different screen sizes 
+    <!-- This meta tag will make the page responsive to different screen sizes  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Font -->
-    // Google Font that will be used to style the page
+    <!--  Google Font that will be used to style the page -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    // Bootstrap CSS file that will be used to style the page
+    <!-- Bootstrap CSS file that will be used to style the page -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <!-- Custom CSS -->
-    // app.css is a custom CSS file that will be used to style the page 
+    <!-- app.css is a custom CSS file that will be used to style the page  -->
     <link rel="stylesheet" href="app.css">
-    // Title of the page
+    <!-- Title of the page -->
     <title>Museum of Candy</title>
 </head>
 
 <body>
-    // Navbar 
-    // navbar-dark makes the navbar dark and navbar-expand-md makes the navbar expand on medium screens 
-    // py-0 adds padding to the top and bottom of the navbar and fixed-top makes the navbar fixed at the top of the page
+    <!-- Navbar - navbar-dark makes the navbar dark and navbar-expand-md makes the navbar expand on medium screens -->
+    <!-- py-0 adds padding to the top and bottom of the navbar and fixed-top makes the navbar fixed at the top of the page -->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        // Navbar Brand 
+        <!-- Navbar Brand  -->
         <a href="#" class="navbar-brand">CANDY</a>
 
-        // navbar-toggler toggles the navbar when clicked and data-target="#navLinks" targets the navbar links 
-        // aria-label="Toggle navigation" is the label for the hamburger icon 
-        // navbar-toggler-icon is the hamburger icon
+        <!-- navbar-toggler toggles the navbar when clicked and data-target="#navLinks" targets the navbar links 
+        aria-label="Toggle navigation" is the label for the hamburger icon 
+        navbar-toggler-icon is the hamburger icon -->
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-            // navbar-toggler-icon is the hamburger icon 
-            // The hamburger icon will be displayed when the screen size is small
-            // The hamburger icon will be hidden when the screen size is large
             <span class="navbar-toggler-icon"></span>
         </button>
-        // Navbar Links 
+        <!-- Navbar Links  -->
         <div class="collapse navbar-collapse" id="navLinks">
-            // navbar-nav is the class for the navbar links
+            <!-- navbar-nav is the class for the navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="" class="nav-link">HOME</a>
@@ -54,18 +50,18 @@
         </div>
     </nav>
 
-    // Breakpoints and Display Utilities on how page will be displayed as screen size changes 
-    // px-0 removes padding on the sides
+    <!-- Breakpoints and Display Utilities on how page will be displayed as screen size changes -->
+    <!-- px-0 removes padding on the sides -->
     <section class="container-fluid px-0">
-        // row align-items-center centers the content in the middle of the row 
+        <!-- row align-items-center centers the content in the middle of the row  -->
         <div class="row align-items-center">
-            // col-lg-6 makes the column take up 6 columns on large screens
+            <!-- col-lg-6 makes the column take up 6 columns on large screens -->
             <div class="col-lg-6">
-                // headingGroup is a div that contains the heading text 
-                // text-white makes the text white and text-center centers text in the middle of the column 
-                // d-none d-lg-block hides the text on small screens and displays it on large screens
-                // mt-5 adds margin to the top of the text
-                // The text is repeated multiple times to create a shadow effect
+                <!-- headingGroup is a div that contains the heading text -->
+                <!-- text-white makes the text white and text-center centers text in the middle of the column -->
+                <!-- d-none d-lg-block hides the text on small screens and displays it on large screens -->
+                <!-- mt-5 adds margin to the top of the text -->
+                <!-- The text is repeated multiple times to create a shadow effect -->
                 <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
                     <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
                     <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
@@ -76,46 +72,46 @@
                     <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
                 </div>
             </div>
-            // text-center centers text in the middle of the column and order-1 order-lg-2 changes the order of the columns as screen size changes 
-            // col-lg-6 makes the column take up 6 columns on large screens 
+            <!-- text-center centers text in the middle of the column and order-1 order-lg-2 changes the order of the columns as screen size changes -->
+            <!-- col-lg-6 makes the column take up 6 columns on large screens  -->
             <div class="col-lg-6">
-                // img-fluid makes image responsive 
+                <!-- img-fluid makes image responsive  -->
                 <img class="img-fluid" src="imgs/hand2.png" alt="">
             </div>
         </div>
     </section>
 
-    // Breakpoints and Display Utilities on how page will be displayed as screen size changes
-    // px-0 removes padding on the sides 
-    // bg-light makes the background light gray
+    <!-- Breakpoints and Display Utilities on how page will be displayed as screen size changes
+    px-0 removes padding on the sides 
+    bg-light makes the background light gray -->
     <section class="container-fluid px-0">
-        // row align-items-center centers the content in the middle of the row 
-        // content is a class that adds padding to the content 
+        <!-- row align-items-center centers the content in the middle of the row 
+        content is a class that adds padding to the content  -->
         <div class="row align-items-center content">
-            // col-md-6 makes the column take up 6 columns on medium screens 
-            // order-2 order-md-1 changes the order of the columns as screen size changes
+            <!-- col-md-6 makes the column take up 6 columns on medium screens 
+            order-2 order-md-1 changes the order of the columns as screen size changes -->
             <div class="col-md-6 order-2 order-md-1">
-                // img-fluid makes image responsive
-                // The image will be displayed on the right side of the column on small screens and on the left side of the column on large screens 
+                <!-- img-fluid makes image responsive
+                The image will be displayed on the right side of the column on small screens and on the left side of the column on large screens  -->
                 <img src="imgs/milk.png" alt="" class="img-fluid">
             </div>
-            // col-md-6 makes the column take up 6 columns on medium screens
-            // text-center centers text in the middle of the column
-            // order-1 order-md-2 changes the order of the columns as screen size changes
+            <!-- col-md-6 makes the column take up 6 columns on medium screens
+            text-center centers text in the middle of the column
+            order-1 order-md-2 changes the order of the columns as screen size changes -->
             <div class="col-md-6 text-center order-1 order-md-2">
-                // row justify-content-center centers the content in the middle of the row
+                <!-- row justify-content-center centers the content in the middle of the row -->
                 <div class="row justify-content-center">
-                    // col-10 col-lg-8 makes the text take up 10 columns on small screens and 8 columns on large screens 
-                    // blurb is a class that adds padding to the text
-                    // mb-5 adds margin to the bottom of the text
-                    // mb-md-0 removes margin from the bottom of the text on medium screens
+                    <!-- col-10 col-lg-8 makes the text take up 10 columns on small screens and 8 columns on large screens 
+                    blurb is a class that adds padding to the text
+                    mb-5 adds margin to the bottom of the text
+                    mb-md-0 removes margin from the bottom of the text on medium screens -->
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                         <h2>MUSEUM OF CANDY</h2>
-                        // d-none d-lg-inline hides the image on small screens and displays it on large screens
-                        // img-fluid makes image responsive
+                        <!-- d-none d-lg-inline hides the image on small screens and displays it on large screens
+                        img-fluid makes image responsive -->
                         <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
-                        // lead is a class that makes the text larger
-                        // The text is repeated multiple times to create a shadow effect
+                        <!-- lead is a class that makes the text larger
+                        The text is repeated multiple times to create a shadow effect -->
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
                             beatae, maiores deserunt
                             in voluptatibus
@@ -128,25 +124,25 @@
                 </div>
             </div>
         </div>
-        // row align-items-center centers the content in the middle of the row
-        // content is a class that adds padding to the content
+        <!-- row align-items-center centers the content in the middle of the row
+        content is a class that adds padding to the content -->
         <div class="row align-items-center content">
-            // col-md-6 makes the column take up 6 columns on medium screens
-            // order-2 order-md-1 changes the order of the columns as screen size changes
+            <!-- col-md-6 makes the column take up 6 columns on medium screens
+            order-2 order-md-1 changes the order of the columns as screen size changes -->
             <div class="col-md-6 text-center">
-                // img-fluid makes image responsive
-                // The image will be displayed on the left side of the column on small screens and on the right side of the column on large screens 
+                <!-- img-fluid makes image responsive
+                The image will be displayed on the left side of the column on small screens and on the right side of the column on large screens  -->
                 <div class="row justify-content-center">
-                    // col-10 col-lg-8 makes the text take up 10 columns on small screens and 8 columns on large screens
-                    // blurb is a class that adds padding to the text 
-                    // mb-5 adds margin to the bottom of the text
-                    // mb-md-0 removes margin from the bottom of the text on medium screens
+                    <!-- col-10 col-lg-8 makes the text take up 10 columns on small screens and 8 columns on large screens
+                    blurb is a class that adds padding to the text 
+                    mb-5 adds margin to the bottom of the text
+                    mb-md-0 removes margin from the bottom of the text on medium screens -->
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                         <h2>MUSEUM OF CANDY</h2>
-                        // d-none d-lg-inline hides the image on small screens and displays it on large screens
-                        // img-fluid makes image responsive
+                        <!-- d-none d-lg-inline hides the image on small screens and displays it on large screens
+                        img-fluid makes image responsive -->
                         <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
-                        // lead is a class that makes the text larger
+                        <!-- lead is a class that makes the text larger -->
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
                             beatae, maiores deserunt
                             in voluptatibus
@@ -158,39 +154,39 @@
                     </div>
                 </div>
             </div>
-            // col-md-6 makes the column take up 6 columns on medium screens
+            <!-- col-md-6 makes the column take up 6 columns on medium screens -->
             <div class="col-md-6">
-                // img-fluid makes image responsive
-                // The image will be displayed on the right side of the column on small screens and on the left side of the column on large screens
+                <!-- img-fluid makes image responsive -->
+                <!-- The image will be displayed on the right side of the column on small screens and on the left side of the column on large screens -->
                 <img src="imgs/gumball.png" alt="" class="img-fluid">
             </div>
         </div>
-        // row align-items-center centers the content in the middle of the row
-        // content is a class that adds padding to the content
+        <!-- row align-items-center centers the content in the middle of the row -->
+        <!-- content is a class that adds padding to the content -->
         <div class="row align-items-center content">
-            // col-md-6 makes the column take up 6 columns on medium screens
-            // order-2 order-md-1 changes the order of the columns as screen size changes
+            <!-- col-md-6 makes the column take up 6 columns on medium screens -->
+            <!-- order-2 order-md-1 changes the order of the columns as screen size changes -->
             <div class="col-md-6 order-2 order-md-1">
-                // img-fluid makes image responsive
-                // The image will be displayed on the right side of the column on small screens and on the left side of the column on large screens
+                <!-- img-fluid makes image responsive -->
+                <!-- The image will be displayed on the right side of the column on small screens and on the left side of the column on large screens -->
                 <img src="imgs/sprinkles.png" alt="" class="img-fluid">
             </div>
-            // col-md-6 makes the column take up 6 columns on medium screens
-            // text-center centers text in the middle of the column
-            // order-1 order-md-2 changes the order of the columns as screen size changes
+            <!-- col-md-6 makes the column take up 6 columns on medium screens -->
+            <!-- text-center centers text in the middle of the column -->
+            <!-- order-1 order-md-2 changes the order of the columns as screen size changes -->
             <div class="col-md-6 text-center order-1 order-md-2">
-                // row justify-content-center centers the content in the middle of the row
+                <!-- row justify-content-center centers the content in the middle of the row -->
                 <div class="row justify-content-center">
-                    // col-10 col-lg-8 makes the text take up 10 columns on small screens and 8 columns on large screens
-                    // blurb is a class that adds padding to the text
-                    // mb-5 adds margin to the bottom of the text
-                    // mb-md-0 removes margin from the bottom of the text on medium screens
+                    <!-- col-10 col-lg-8 makes the text take up 10 columns on small screens and 8 columns on large screens -->
+                    <!-- blurb is a class that adds padding to the text -->
+                    <!-- mb-5 adds margin to the bottom of the text -->
+                    <!-- mb-md-0 removes margin from the bottom of the text on medium screens -->
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                         <h2>MUSEUM OF CANDY</h2>
-                        // d-none d-lg-inline hides the image on small screens and displays it on large screens
-                        // img-fluid makes image responsive
+                        <!-- d-none d-lg-inline hides the image on small screens and displays it on large screens -->
+                        <!-- img-fluid makes image responsive -->
                         <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
-                        // lead is a class that makes the text larger
+                        <!-- lead is a class that makes the text larger -->
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
                             beatae, maiores
                             deserunt
@@ -210,31 +206,31 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    // jQuery is a JavaScript library that simplifies JavaScript programming
+    <!-- jQuery is a JavaScript library that simplifies JavaScript programming -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-        // Popper.js is a JavaScript library that helps with positioning popovers and tooltips
+        <!-- Popper.js is a JavaScript library that helps with positioning popovers and tooltips -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-        // Bootstrap JS file that will be used to add functionality to the page
+        <!-- Bootstrap JS file that will be used to add functionality to the page -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-        // Custom JavaScript file that will be used to add functionality to the page
-        // app.js is a custom JavaScript file that will be used to add functionality to the page
-        // The JavaScript file will be used to add a shadow effect to the text
-        // The JavaScript file will be used to change the color of the navbar when the user scrolls down the page
-        // The JavaScript file will be used to toggle the navbar when the user clicks on the hamburger icon
-        // The JavaScript file will be used to change the order of the columns as screen size changes
-        // The JavaScript file will be used to center the content in the middle of the row
-        // The JavaScript file will be used to add padding to the content
-        // The JavaScript file will be used to make the image responsive
-        // The JavaScript file will be used to hide the image on small screens and display it on large screens
-        // The JavaScript file will be used to add margin to the text
-        // The JavaScript file will be used to remove margin from the text on medium screens
-        // The JavaScript file will be used to make the text larger
-        // The JavaScript file will be used to add margin to the bottom of the text
-        // The JavaScript file will be used to remove margin from the bottom of the text on medium screens
+        <!-- Custom JavaScript file that will be used to add functionality to the page -->
+        <!-- app.js is a custom JavaScript file that will be used to add functionality to the page -->
+        <!-- The JavaScript file will be used to add a shadow effect to the text -->
+        <!-- The JavaScript file will be used to change the color of the navbar when the user scrolls down the page -->
+        <!-- The JavaScript file will be used to toggle the navbar when the user clicks on the hamburger icon -->
+        <!-- The JavaScript file will be used to change the order of the columns as screen size changes -->
+        <!-- The JavaScript file will be used to center the content in the middle of the row -->
+        <!-- The JavaScript file will be used to add padding to the content -->
+        <!-- The JavaScript file will be used to make the image responsive -->
+        <!-- The JavaScript file will be used to hide the image on small screens and display it on large screens -->
+        <!-- The JavaScript file will be used to add margin to the text -->
+        <!-- The JavaScript file will be used to remove margin from the text on medium screens -->
+        <!-- The JavaScript file will be used to make the text larger -->
+        <!-- The JavaScript file will be used to add margin to the bottom of the text -->
+        <!-- The JavaScript file will be used to remove margin from the bottom of the text on medium screens -->
     <script>
         $(function () {
             $(document).scroll(function () {
