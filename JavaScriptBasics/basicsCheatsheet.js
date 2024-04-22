@@ -1,7 +1,11 @@
-// Numbers:
+// Primitive Data Types
+
+// Numbers: Integers and Floats (decimals) - JS has only one number type |Positive, negative, whole (integers), and decimal numbers
 1;
 -99;
 0.345345;
+
+// Math Operations - PEMDAS (Parentheses, Exponents, Multiplication and Division, Addition and Subtraction)
 
 //Making variables with let:
 let numberOfFriends = 1;
